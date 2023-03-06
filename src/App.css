@@ -256,28 +256,143 @@ body{
 }
 /* ------------------- Media Query ------------------------ */
 
-/* for large screen sm (640px) */
-@media (min-width: 640px) {
+@media (max-width <= 340px) {
   .container{
       max-width: 640px;
   }
   .sm-text-xl{
-      font-size: 3em;
+      font-size: 1em;
+  }
+ 
+}
+
+@media (min-width: 150px) and (max-width:  400px) {
+  
+  .oval h2{
+    font-size: 1.5rem !important;
+    margin-top: 3rem !important;
+  }
+
+  .oval {
+    height: 33vh !important;
+}
+
+  .get-started{
+    padding: 0rem 0.5rem !important;
+    font-size: 1rem !important;
+    margin-top: -0.4rem !important;
+  }
+  .oval p{
+    font-size: 0.8rem !important;
+    line-height: 0.9rem !important;
+  }
+  .oval span{
+    font-size: 1rem !important;
+    line-height: 0.5rem !important;
+  }
+
+  .hero .hero-img {
+    margin-top: 3.4rem;
+    right: 1rem !important;
   }
 }
 
+
+
+@media (min-width: 400px) and (max-width: 640px) {
+  
+  .container{
+    max-width: 640px;
+}
+.sm-text-xl{
+    font-size: 2em;
+}
+
+.oval{
+  height: 40vh !important;
+}
+
+
+.oval h2{
+  font-size: 2rem !important;
+}
+.get-started{
+  padding: 0.3rem 0.5rem !important;
+  font-size: 1rem !important;
+  margin-top: 0.3rem !important;
+}
+.oval p{
+  font-size: 1rem !important;
+  line-height: 1rem !important;
+}
+.oval span{
+  font-size: 1rem !important;
+  line-height: 0.5rem !important;
+}
+.hero .hero-img {
+  margin-top: 2.5rem;
+  right: 1.5rem !important;
+}
+
+}
+
+
 /* for large screen md (768px) */
-@media (min-width: 768px) {
+@media (min-width: 640px) and (max-width: 768px) {
   .container{
       max-width: 768px;
   }
   .md-text-left{
       text-align: left;
   }
+  .oval{
+    height: 56vh !important;
+  }
+  .oval h2{
+    font-size: 2.5rem !important;
+  }
+  .get-started{
+    padding: 0.3rem 0.5rem !important;
+    font-size: 1rem !important;
+    margin-top: 0.3rem !important;
+  }
+  .oval p{
+    font-size: 1.4rem !important;
+    line-height: 1.3rem !important;
+  }
+  .oval span{
+    font-size: 2rem !important;
+    line-height: 0.5rem !important;
+  }
+
+
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  .oval{
+    height: 66vh !important;
+  }
+  .oval h2{
+    font-size: 2.5rem !important;
+  }
+  .get-started{
+    padding: 0.8rem 1.5rem !important;
+    font-size: 1rem !important;
+    margin-top: 0.3rem !important;
+  }
+  .oval p{
+    font-size: 1.4rem !important;
+    line-height: 1.3rem !important;
+  }
+  .oval span{
+    font-size: 2rem !important;
+    }
 }
 
 /* for large screen lg (1024px) */
-@media (min-width: 1024px) {
+@media  (min-width: 1024px) {
   .container{
       max-width: 1024px;
   }
@@ -306,6 +421,13 @@ body{
   }
   .lg-cols-2{
       grid-template-columns: repeat(2,minmax(0,1fr));
+  }
+  .oval h2{
+    font-size: 2.5rem !important;
+  }
+
+  .oval p{
+    font-size: 1.8rem !important;
   }
 }
 
