@@ -332,11 +332,10 @@ body{
 
 /* ------------------- Navigation Style ------------------------ */
 #nav{
-  position: absolute;
-  top: 0; left: 0;
+ position: fixed;
   width: 100%;
   padding: 1rem 1.5rem;
-  background: var(--text-light);
+  background-color: white !important;
   flex-direction: column;
 }
 #nav .logo{
@@ -351,13 +350,14 @@ body{
 #nav .collapse ul{
   flex-direction: column;
   text-align: center;
-  padding: 0 3rem;
+
 }
 
 #nav .collapse ul > li{
  padding: 0 1.5rem;
  line-height: 3rem;
  font-size: 1.1em;
+ font-family: var(--font-montserrat);
 }
 
 #nav .toggle-btn > button{
@@ -400,6 +400,7 @@ body{
 .oval h2{
  font-size: 4.5rem;
   color: #5F4AA4;
+  font-family: var(--font-montserrat);
   margin-block: 1rem;
 }
 .oval p{
@@ -426,16 +427,32 @@ body{
  .get-started{
     margin-block: 1rem;
     padding: 1rem 3rem;
-    border-radius: 0.5rem;
+    border-radius: 1.2rem;
     border: 3px solid #5F4AA4;
     font-family: var(--font-montserrat);
     font-weight: 500;
     font-size: 1.6rem;
     transition: 0.5s ease-out;
     color: #5F4AA4;
+    background: white;
  }
  .get-started:hover{
   background-color: #5F4AA4;
   color: white;
  }
 
+
+ .hero{
+  /* margin-block: 5rem; */
+  position: relative;
+  overflow: hidden;
+  bottom: 4rem;
+  display: flex;
+  align-items: center;
+ }
+ .hero .hero-img{
+  width: 120%;
+  position: relative;
+  right: 6rem;
+  
+ }

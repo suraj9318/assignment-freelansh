@@ -1,6 +1,6 @@
 import { FaBars } from 'react-icons/fa'
 import { useState } from 'react';
-import logo from '../assets/images/apple-touch-icon.png'
+import logo from '../assets/images/logo.png'
 
 const Navbar = () => {
     const [toggle,setToggle] = useState(false)
