@@ -578,3 +578,18 @@ body{
   right: 6rem;
   
  }
+
+
+ .theme p{
+  color: #5F4AA4;
+  font-size: 2rem;
+ }
+ .theme h1{
+  color: #5F4AA4;
+  font-size: 15rem;
+  text-align: center;
+  position: relative;
+  top: 2rem;
+ }
+
+
