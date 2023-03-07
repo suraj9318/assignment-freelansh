@@ -296,30 +296,36 @@ body{
     right: 1rem !important;
   }
 
-  .theme .h1{
-    font-size: 3rem !important;
-    position: relative;
-    top: 3rem;
-  }
-
-  .theme .para1{
-    font-size: 1rem !important;
-    position: relative;
-    top: 3rem;
-  }
-  
-  .theme .para2{
-    font-size: 1rem !important;
-    position: relative;
-    top: 1.5rem;
-    text-align: right;
-  }
-.theme .para3{
-  font-size: 1rem !important;
-    margin-top: 3rem;
-  
-
+.theme .para1{
+  font-size: 1rem;
+  color: #5F4AA4;
 }
+.theme h1{
+  font-size: 3.5rem !important;
+  color: #5F4AA4;
+  text-align: center;
+  padding: 0 1rem;
+}
+
+
+.theme .para2{
+  font-size: 1rem;
+  color: #5F4AA4;
+  text-align: right  !important;
+}
+
+.theme .para3{
+  margin-top: 2rem  !important;
+  font-weight: 500;
+  font-size: 1.2rem  !important;
+  color: #5F4AA4;
+  text-align: center;
+  padding: 1rem  !important;
+}
+
+
+
+ 
 }
 
 
@@ -359,6 +365,37 @@ body{
   right: 1.5rem !important;
 }
 
+
+
+.theme .para1{
+  font-size: 1.2rem !important;
+  color: #5F4AA4;
+}
+.theme h1{
+  font-size: 5rem !important;
+  text-align: center;
+  color: #5F4AA4;
+  padding: 0 1rem !important;
+}
+
+
+.theme .para2{
+  font-size: 1.2rem !important;
+  color: #5F4AA4;
+  text-align: right;
+}
+
+.theme .para3{
+  margin-top: 2rem !important;
+  font-weight: 500 !important;
+  font-size: 1.2rem !important;
+  color: #5F4AA4;
+  text-align: center;
+  padding: 1rem !important;
+}
+
+
+
 }
 
 
@@ -391,6 +428,39 @@ body{
   }
 
 
+  
+
+.theme .para1{
+  font-size: 1.5rem !important;
+  color: #5F4AA4;
+}
+.theme h1{
+  font-size: 6rem !important;
+  text-align: center;
+  color: #5F4AA4;
+  padding: 0 1rem !important;
+}
+
+
+.theme .para2{
+  font-size: 1.5rem !important;
+  color: #5F4AA4;
+  text-align: right;
+}
+
+.theme .para3{
+  margin-top: 2rem !important;
+  font-weight: 500 !important;
+  font-size: 1.5rem !important;
+  color: #5F4AA4;
+  text-align: center;
+  padding: 1rem !important;
+}
+
+
+
+
+
 }
 
 
@@ -414,6 +484,37 @@ body{
   .oval span{
     font-size: 2rem !important;
     }
+
+
+
+    .theme .para1{
+      font-size: 1.8rem !important;
+      color: #5F4AA4;
+    }
+    .theme h1{
+      font-size: 7rem !important;
+      text-align: center;
+      color: #5F4AA4;
+      padding: 0 1rem !important;
+    }
+    
+    
+    .theme .para2{
+      font-size: 1.8rem !important;
+      color: #5F4AA4;
+      text-align: right;
+    }
+    
+    .theme .para3{
+      margin-top: 2rem !important;
+      font-weight: 500;
+      font-size: 1.8rem !important;
+      color: #5F4AA4;
+      text-align: center;
+      padding: 1rem !important;
+    }
+
+    
 }
 
 /* for large screen lg (1024px) */
@@ -454,6 +555,39 @@ body{
   .oval p{
     font-size: 1.8rem !important;
   }
+
+
+
+
+   
+.theme .para1{
+  font-size: 2rem;
+  color: #5F4AA4;
+}
+.theme h1{
+  font-size: 10rem;
+  color: #5F4AA4;
+  text-align: center;
+  padding: 0 1rem;
+  letter-spacing: 1rem;
+}
+
+
+.theme .para2{
+  font-size: 2rem;
+  color: #5F4AA4;
+  text-align: right;
+}
+
+.theme .para3{
+  margin-top: 2rem ;
+  font-weight: 500;
+  font-size: 2rem;
+  color: #5F4AA4;
+  text-align: center;
+  padding: 1rem ;
+}
+
 }
 
 /* for large screen xl (1280px) */
@@ -469,6 +603,9 @@ body{
   #nav .flex-initial ul button{
       display: inline-block !important;
   }
+
+
+  
 
 }
 
@@ -605,35 +742,4 @@ body{
  }
 
 
- .theme p{
-  color: #5F4AA4;
-  font-size: 2rem;
- }
- .theme h1{
-  color: #5F4AA4;
-  font-size: 15rem;
-  text-align: center;
-  position: relative;
-  top: 2rem;
- }
 
-
- .theme .para1{
-  color: #5F4AA4;
-  font-size: 2rem;
-  position: relative;
-  top: 5rem;
- }
-
- .theme .para2{
-  color: #5F4AA4;
-  font-size: 2rem;
-  text-align: right;
- }
- .theme  .para3{
-  color: #5F4AA4;
-  font-size: 2rem;
-  margin-top: 3rem;
-  text-align: center;
-
- }
