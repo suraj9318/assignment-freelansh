@@ -8,6 +8,7 @@ import ThemeLine from './componets/ThemeLine';
 
 import feature1 from './assets/images/feature1.png'
 import feature2 from './assets/images/feature2.png'
+import Footer from './componets/Footer';
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
     <Feature img={feature2}/>
     
     </div>
+    <Footer/>
     </>
   );
 }

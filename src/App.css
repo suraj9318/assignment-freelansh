@@ -280,7 +280,8 @@ body{
   .get-started{
     padding: 0rem 0.5rem !important;
     font-size: 1rem !important;
-    margin-top: -0.4rem !important;
+    margin-top: -0.1rem !important;
+    border: 1px solid #5F4AA4 !important;
   }
   .oval p{
     font-size: 0.8rem !important;
@@ -302,9 +303,10 @@ body{
 }
 .theme h1{
   font-size: 3.5rem !important;
-  color: #5F4AA4;
-  text-align: center;
-  padding: 0 1rem;
+    color: #5F4AA4;
+    text-align: center;
+    padding: 0 1rem;
+    letter-spacing: 0.3rem;
 }
 
 
@@ -827,4 +829,17 @@ margin: 1rem 0rem !important;
 
  .fearure p{
   margin-block: 1rem;
+}
+
+.footer{
+  background-color: white;
+  margin-top: 2rem;
+  height: 7vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer p{
+  color: #5F4AA4;
 }
