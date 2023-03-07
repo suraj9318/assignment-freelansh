@@ -324,8 +324,21 @@ body{
 }
 
 
+.feature-container{
+  flex-direction: column;
+  padding: 1rem;
+}
+.fearure{
+width: 100% !important;
+margin: 1rem 0rem !important; 
+}
+.fearure h3 {
+  font-size: 1.3rem !important;
+}
+.fearure p {
+  font-size: 12px !important;
+}
 
- 
 }
 
 
@@ -394,6 +407,20 @@ body{
   padding: 1rem !important;
 }
 
+.feature-container{
+  flex-direction: column;
+  padding: 1rem;
+}
+.fearure{
+width: 100% !important;
+margin: 1rem 0rem !important; 
+}
+.fearure h3 {
+  font-size: 1.5rem !important;
+}
+.fearure p {
+  font-size: 13px !important;
+}
 
 
 }
@@ -460,6 +487,21 @@ body{
 
 
 
+.feature-container{
+  flex-direction: column;
+  padding: 1rem;
+}
+.fearure{
+width: 100% !important;
+margin: 1rem 0rem !important; 
+}
+.fearure h3 {
+  font-size: 1.8rem !important;
+}
+.fearure p {
+  font-size: 15px !important;
+}
+
 
 }
 
@@ -513,6 +555,23 @@ body{
       text-align: center;
       padding: 1rem !important;
     }
+
+
+    .feature-container{
+      flex-direction: column;
+      padding: 1rem;
+    }
+    .fearure{
+    width: 100% !important;
+    margin: 1rem 0rem !important; 
+    }
+    .fearure h3 {
+      font-size: 2rem !important;
+    }
+    .fearure p {
+      font-size: 18px !important;
+    }
+    
 
     
 }
@@ -742,4 +801,30 @@ body{
  }
 
 
+ .feature-container{
+  width: 100%;
+ }
+ .fearure{
+  background-color: #918FED;
+  width: 50%;
+    margin: 4rem 2rem;
+    padding: 1rem 2rem;
+  color: white;
+  font-family: var(--font-montserrat);
+  border-radius: 10px;
+ }
 
+ .fearure img{
+  width: 15%;
+  
+}
+
+
+ .fearure h3{
+    font-size: 2rem;
+    
+ }
+
+ .fearure p{
+  margin-block: 1rem;
+}
