@@ -18,7 +18,7 @@ function App() {
     <GetStarted/>
     <Hero/>
     <ThemeLine/>
-    <div className="container-fluid feature-container flex">
+    <div className="container-fluid feature-container">
     <Feature img={feature1}/>
     <Feature img={feature2}/>
     
