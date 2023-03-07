@@ -295,8 +295,11 @@ body{
     margin-top: 3.4rem;
     right: 1rem !important;
   }
-  .theme h1{
-    font-size: 4rem !important;
+
+  .theme .h1{
+    font-size: 3rem !important;
+    position: relative;
+    top: 3rem;
   }
 
   .theme .para1{
@@ -314,10 +317,9 @@ body{
 .theme .para3{
   font-size: 1rem !important;
     margin-top: 3rem;
-    text-align: center;
-    
-}
+  
 
+}
 }
 
 
@@ -616,3 +618,22 @@ body{
  }
 
 
+ .theme .para1{
+  color: #5F4AA4;
+  font-size: 2rem;
+  position: relative;
+  top: 5rem;
+ }
+
+ .theme .para2{
+  color: #5F4AA4;
+  font-size: 2rem;
+  text-align: right;
+ }
+ .theme  .para3{
+  color: #5F4AA4;
+  font-size: 2rem;
+  margin-top: 3rem;
+  text-align: center;
+
+ }
