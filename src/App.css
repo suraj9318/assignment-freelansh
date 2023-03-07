@@ -295,6 +295,29 @@ body{
     margin-top: 3.4rem;
     right: 1rem !important;
   }
+  .theme h1{
+    font-size: 4rem !important;
+  }
+
+  .theme .para1{
+    font-size: 1rem !important;
+    position: relative;
+    top: 3rem;
+  }
+  
+  .theme .para2{
+    font-size: 1rem !important;
+    position: relative;
+    top: 1.5rem;
+    text-align: right;
+  }
+.theme .para3{
+  font-size: 1rem !important;
+    margin-top: 3rem;
+    text-align: center;
+    
+}
+
 }
 
 

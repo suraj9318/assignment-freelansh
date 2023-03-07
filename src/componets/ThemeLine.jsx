@@ -3,7 +3,7 @@ import React from 'react'
 const ThemeLine = () => {
   return (
     <div>
-      <div className='container-fluid theme'>
+      <div className='container theme'>
         <p className='para1'>Don't let the Pressure of</p>
             <h1>DEADLINES</h1>
             <p className='para2'>Discourages you.</p>
