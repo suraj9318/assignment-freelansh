@@ -195,8 +195,9 @@ ul{
   color: #797979;
   font-weight: 600;
 }
-
-
+.link:hover{
+  color: #5F4AA4;
+}
 .btn{
   border: none;
   background-color: transparent;
@@ -264,7 +265,20 @@ body{
 }
 
 @media (min-width: 150px) and (max-width:  400px) {
-  
+  #nav{
+    display: flex!important;
+    justify-content: center;
+    align-items: flex-start !important;
+    
+  }
+  #nav .logo{
+    width: 4rem !important;
+  }
+
+  #nav .toggle-btn > button {
+
+    padding: 3rem 2rem !important;
+  }
   .oval h2{
     font-size: 1.5rem !important;
     margin-top: 3rem !important;
@@ -294,33 +308,53 @@ body{
     right: 1rem !important;
   }
 
-.theme .para1{
-  font-size: 1rem;
-  color: #5F4AA4;
-}
-.theme h1{
-  font-size: 3.5rem !important;
-    color: #5F4AA4;
+
+
+
+  .theme .para1{
+    color: #5552B9;
+    font-size: 1rem;
+    position: relative;
+    top:1rem;
+    padding: 0rem 3rem;
+  }
+  
+  .theme h1{
+    color: #5f4aa4;
+    font-size: 3.5rem;
     text-align: center;
-    padding: 0 1rem;
-    letter-spacing: 0.3rem;
-}
+    padding: 0rem 3rem;
+
+  }
+  
+  
+  .theme .para2{
+    color: #5552B9;
+    font-size: 1rem;
+    position: relative;
+    bottom: 0.8rem;
+    left: 3rem;
+    text-align: right;
+  }
+  
+  .theme .para3{
+    font-size: 3rem;
+    color: #5552B9;
+    font-weight: 500;
+    text-align: center;
+  }
+  
+  .theme .para-container{
+    margin-block: 2rem;
+  }
 
 
-.theme .para2{
-  font-size: 1rem;
-  color: #5F4AA4;
-  text-align: right  !important;
-}
 
-.theme .para3{
-  margin-top: 2rem  !important;
-  font-weight: 500;
-  font-size: 1.2rem  !important;
-  color: #5F4AA4;
-  text-align: center;
-  padding: 1rem  !important;
-}
+
+
+
+
+
 
 
 .feature-container{
@@ -619,31 +653,40 @@ margin: 1rem 0rem !important;
 
    
 .theme .para1{
+  color: #5552B9;
   font-size: 2rem;
-  color: #5F4AA4;
+  position: relative;
+  top: 4rem;
+  padding: 0rem 4rem;
 }
 .theme h1{
-  font-size: 10rem;
-  color: #5F4AA4;
-  text-align: center;
+  color: #5f4aa4;
+  font-size: 14rem;
   padding: 0 1rem;
+  text-align: center;
   letter-spacing: 1rem;
 }
 
 
 .theme .para2{
+  color: #5552B9;
   font-size: 2rem;
-  color: #5F4AA4;
+  position: relative;
+  bottom: 2rem;
+  padding: 0px 4rem;
+  /* right: 0; */
   text-align: right;
 }
 
 .theme .para3{
-  margin-top: 2rem ;
+  font-size: 3rem;
+  color: #5552B9;
   font-weight: 500;
-  font-size: 2rem;
-  color: #5F4AA4;
   text-align: center;
-  padding: 1rem ;
+}
+
+.theme .para-container{
+  margin-block: 2rem;
 }
 
 }
@@ -701,8 +744,7 @@ margin: 1rem 0rem !important;
 #nav .collapse ul > li{
  padding: 0 1.5rem;
  line-height: 3rem;
- font-size: 1.1em;
- font-size: 1.5rem;
+ font-size: 1.6em !important;
  font-family: var(--font-montserrat);
 }
 
@@ -744,7 +786,7 @@ margin: 1rem 0rem !important;
 }
 
 .oval h2{
- font-size: 5rem !important;
+ font-size: 5rem;
   color: #5F4AA4;
   font-family: var(--font-montserrat);
   margin-block: 1rem;
@@ -809,27 +851,32 @@ margin: 1rem 0rem !important;
  }
  .fearure{
   background-color: #918FED;
-  width: 95%;
-    margin: 4rem 2rem;
-    padding: 1rem 2rem;
+  width: 90%;
+  margin: 4rem 2rem;
+  padding: 1rem 2rem;
   color: white;
   font-family: var(--font-montserrat);
   border-radius: 10px;
+  transition: 0.5s ease-out;
+  height: 568px;
  }
 
- .fearure img{
-  width: 15%;
-  
+ .fearure:hover{
+  background-color: #5552B9;
+ }
+
+.fearure img{
+  padding: 3rem;
 }
 
-
  .fearure h3{
-    font-size: 2rem;
+  font-size: 3rem;
     
  }
 
  .fearure p{
   margin-block: 1rem;
+  font-size: 1.8rem;
 }
 
 .footer{
